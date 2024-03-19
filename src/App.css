@@ -2,8 +2,18 @@
   margin: 30px 0;
 }
 
-.App-logo{
+.App-logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
+}
+
+.App-logo-footer {
+  max-width: 100px;
+
+  border-radius: 5px;
+}
+
+.App-footer{
+ text-align: center;
 }
