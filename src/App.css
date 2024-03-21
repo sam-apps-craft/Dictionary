@@ -7,7 +7,10 @@
   display: block;
   margin: 0 auto;
 }
+main{
 
+  text-align: center;
+}
 .App-logo-footer {
   max-width: 100px;
 
@@ -16,4 +19,5 @@
 
 .App-footer{
  text-align: center;
+ margin-top: 100px;
 }
