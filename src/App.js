@@ -12,7 +12,7 @@ export default function App() {
         </header>
 
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="house" />
         </main>
         <footer className="App-footer text-center">
           <p className="">
