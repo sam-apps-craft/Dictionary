@@ -8,7 +8,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img
+            src={logo}
+            className="App-logo img-fluid"
+            alt="logo"
+            rel="noreferrer"
+          />
         </header>
 
         <main>
@@ -17,11 +22,16 @@ export default function App() {
         <footer className="App-footer text-center">
           <p className="">
             Coded by{" "}
-            <a href="https://www.apps-craft.com/" target="blank">
+            <a
+              href="https://www.apps-craft.com/"
+              target="blank"
+              rel="noreferrer"
+            >
               <img
                 src={logo2}
                 className="App-logo-footer img-fluid rounded"
                 alt="logo2"
+                rel="noreferrer"
               />
             </a>
           </p>
