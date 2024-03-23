@@ -17,11 +17,10 @@ export default function App() {
         </header>
 
         <main>
-          <Dictionary defaultKeyword="house" />
+          <Dictionary defaultKeyword="start-up" />
         </main>
         <footer className="App-footer text-center">
-          <p className="">
-            Coded by{" "}
+          <p className="footer">
             <a
               href="https://www.apps-craft.com/"
               target="blank"
@@ -33,6 +32,23 @@ export default function App() {
                 alt="logo2"
                 rel="noreferrer"
               />
+            </a>
+            <br />
+            Coded by Samantha Raymond and is open-sourced on{" "}
+            <a
+              href="https://github.com/sam-apps-craft/Dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            hosted on{" "}
+            <a
+              href="https://dictionary-app-apps-craft.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify.
             </a>
           </p>
         </footer>
